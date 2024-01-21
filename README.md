@@ -28,7 +28,7 @@ ERD is a graphical representation that illustrates the relationships between ent
 
        The above diagram show case in two entities student and course and the relationship. The relationship describe between student and course is many to many. As a course can be octed by several student . As  a student can more than one course. Here student is the entities  and it’s possessive attributes that is student id , student name, and student age. And the course attributes such as course id, and course name . 
 
-# TYPES OF ENTITY.
+**TYPES OF ENTITY.**
 
 **Physical Entity:** Referring to tangible objects like a car or a book.
 
@@ -43,7 +43,7 @@ An entity typically has a primary key, which is a unique identifier for each ins
 
 Entities can be related to each other through relationships. Common relationship types include one-to-one, one-to-many, and many-to-many. These relationships help define how data is connected and organized in the database.
 
-**Example Entity in an ERD:**
+#Example Entity in an ERD:
 
 Consider a simplified e-commerce scenario:
 
@@ -51,21 +51,25 @@ Consider a simplified e-commerce scenario:
 Attributes: CustomerID (Primary Key), FirstName, LastName, Email
 Relationships: May be related to the "Order" entity through a one-to-many relationship (a customer can place multiple orders).
 
-Basic Steps for Modeling Entities in a Database:
+#Basic Steps for Modeling Entities in a Database:
 
-Identify Entities:
+1. Identify Entities:
 
 Recognize the main objects or concepts relevant to your application.
-Define Attributes:
+
+2. Define Attributes:
 
 Identify and define the properties (attributes) that describe each entity.
-Establish Relationships:
+
+3. Establish Relationships:
 
 Determine how entities are related to each other. Use relationships to connect entities and define the cardinality (e.g., one-to-many).
-Assign Primary Keys:
+
+4. Assign Primary Keys:
 
 Choose or create a unique identifier (primary key) for each entity.
-Create an Entity-Relationship Diagram (ERD):
+
+5. Create an Entity-Relationship Diagram (ERD):
 
 Use an ERD to visually represent entities, attributes, and relationships.
 Remember that the specifics can vary depending on the database management system (DBMS) you are using (e.g., MySQL, PostgreSQL, Microsoft SQL Server). Documentation for your specific DBMS may provide additional details and best practices for entity modeling.
