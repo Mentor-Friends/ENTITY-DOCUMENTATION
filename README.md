@@ -43,7 +43,7 @@ An entity typically has a primary key, which is a unique identifier for each ins
 
 Entities can be related to each other through relationships. Common relationship types include one-to-one, one-to-many, and many-to-many. These relationships help define how data is connected and organized in the database.
 
-#Example Entity in an ERD:
+## Example Entity in an ERD:
 
 Consider a simplified e-commerce scenario:
 
@@ -51,7 +51,7 @@ Consider a simplified e-commerce scenario:
 Attributes: CustomerID (Primary Key), FirstName, LastName, Email
 Relationships: May be related to the "Order" entity through a one-to-many relationship (a customer can place multiple orders).
 
-#Basic Steps for Modeling Entities in a Database:
+## Basic Steps for Modeling Entities in a Database:
 
 1. Identify Entities:
 
